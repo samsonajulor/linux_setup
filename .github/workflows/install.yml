@@ -10,64 +10,64 @@ jobs:
     - uses: actions/checkout@v2
 
     - name: Tntry point
-      run: sh start.sh
+      run: sh programs/start.sh
 
     - name: Install AWS CLI
-      run: sh aws.sh
+      run: sh programs/aws.sh
 
     - name: Install GIT
-      run: sh git.sh
+      run: sh programs/git.sh
 
     # - name: Install PHP
-    #   run: sh php.sh
+    #   run: sh programs/php.sh
 
     - name: Install DBeaver
-      run: sh dbeaver.sh
+      run: sh programs/dbeaver.sh
 
     - name: Install PostgreSQL
-      run: sh postgresql.sh
+      run: sh programs/postgresql.sh
 
     # - name: Install Docker
-    #   run: sh docker.sh
+    #   run: sh programs/docker.sh
 
     # - name: Install Evernote
-    #   run: sh evernote.sh
+    #   run: sh programs/evernote.sh
 
     # - name: Install Java
-    #   run: sh java.sh
+    #   run: sh programs/java.sh
 
     # - name: Install Microsoft Teams
-    #   run: sh ms_teams.sh
+    #   run: sh programs/ms_teams.sh
 
     - name: Install Zsh
-      run: sh zsh.sh
+      run: sh programs/zsh.sh
 
     - name: Install Node.js and NVM
-      run: sh node_nvm.sh
+      run: sh programs/node_nvm.sh
 
     - name: Install Terraform
-      run: sh terraform.sh
+      run: sh programs/terraform.sh
 
     # - name: Install Python
-    #   run: sh python.sh
+    #   run: sh programs/python.sh
 
     - name: Install Slack
-      run: sh slack.sh
+      run: sh programs/slack.sh
 
     - name: Install Yarn
-      run: sh yarn.sh
+      run: sh programs/yarn.sh
 
     # - name: Install Zoom
-    #   run: sh zoom.sh
+    #   run: sh programs/zoom.sh
 
     - name: Install VS Code
-      run: sh vscode.sh
+      run: sh programs/vscode.sh
 
     - name: Install Discord
-      run: sh discord.sh
+      run: sh programs/discord.sh
 
     # - name: Install MongoDB
-    #   run: sh mongodb.sh
+    #   run: sh programs/mongodb.sh
 
     # - name: Install Redis
-    #   run: sh redis.sh
+    #   run: sh programs/redis.sh
