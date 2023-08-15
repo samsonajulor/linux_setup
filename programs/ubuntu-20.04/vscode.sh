@@ -1,4 +1,10 @@
 #!/bin/bash
 
-echo 'Installing VSCode'
-sudo snap install --classic code
+echo 'Checking if VSCode is already installed...'
+
+if ! command -v code &> /dev/null; then
+    echo 'VSCode is not installed. Installing now...'
+    sudo snap install --classic code
+else
+    echo 'VSCode is already installed.'
+fi

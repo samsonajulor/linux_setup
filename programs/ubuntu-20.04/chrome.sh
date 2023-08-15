@@ -1,5 +1,11 @@
 #!/bin/bash
 
+# Check if Google Chrome is already installed
+if [ -x "$(command -v google-chrome)" ]; then
+    echo "Google Chrome is already installed."
+    exit 0
+fi
+
 # Add the Google Chrome repository
 echo "Adding Google Chrome repository..."
 wget -q -O - https://dl.google.com/linux/linux_signing_key.pub | sudo apt-key add -

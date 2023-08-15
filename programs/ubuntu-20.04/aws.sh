@@ -1,14 +1,21 @@
 #!/bin/bash
 
-echo "Installing AWS CLI..."
-sudo yum remove awscli -y
-sudo apt-get update
-curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
-unzip awscliv2.zip
-sudo ./aws/install
-sudo aws --version
+echo "Checking if AWS CLI is already installed..."
+if command -v aws &>/dev/null; then
+    echo "AWS CLI is already installed."
+else
+    echo "Installing AWS CLI..."
 
-echo "aws installation complete..."
+    sudo apt-get update
+    sudo apt-get remove awscli -y
+
+    curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+    unzip awscliv2.zip
+    sudo ./aws/install
+    sudo aws --version
+
+    echo "AWS CLI installation complete..."
+fi
 
 # echo "configuring aws cli..." do this manually
 # sudo aws configure sso
