@@ -8,4 +8,6 @@ echo '"--emoji" true' >> ~/.yarnrc
 
 echo 'Installing Typescript'
 yarn global add typescript
+echo 'export TERM=xterm-256color' >> ~/.zshrc
+source ~/.zshrc
 clear
