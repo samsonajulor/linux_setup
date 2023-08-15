@@ -15,17 +15,17 @@ jobs:
     # - name: Install PHP
     #   run: sh php.sh
 
-    # - name: Install DBeaver
-    #   run: sh dbeaver.sh
+    - name: Install DBeaver
+      run: sh dbeaver.sh
 
-    # - name: Install PostgreSQL
-    #   run: sh postgresql.sh
+    - name: Install PostgreSQL
+      run: sh postgresql.sh
 
-    # - name: Install Docker
-    #   run: sh docker.sh
+    - name: Install Docker
+      run: sh docker.sh
 
-    # - name: Install Evernote
-    #   run: sh evernote.sh
+    - name: Install Evernote
+      run: sh evernote.sh
 
     # - name: Install Java
     #   run: sh java.sh
@@ -39,8 +39,8 @@ jobs:
     - name: Install Node.js and NVM
       run: sh node_nvm.sh
 
-    # - name: Install Terraform
-    #   run: sh terraform.sh
+    - name: Install Terraform
+      run: sh terraform.sh
 
     # - name: Install Python
     #   run: sh python.sh
@@ -58,8 +58,8 @@ jobs:
       run: sh vscode.sh
 
 
-    # - name: Install Discord
-    #   run: sh discord.sh
+    - name: Install Discord
+      run: sh discord.sh
 
     # - name: Install MongoDB
     #   run: sh mongodb.sh

@@ -2,4 +2,4 @@
 
 echo "Installing DBeaver..."
 sudo apt-get update
-sudo apt-get install dbeaver-ce
+sudo snap install dbeaver-ce
