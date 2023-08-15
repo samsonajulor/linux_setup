@@ -10,4 +10,4 @@ sudo apt-get update && sudo apt-get install code -y
 echo 'Installing Code Settings Sync'
 code --install-extension Shan.code-settings-sync
 sudo apt-get install gnome-keyring -y
-cls
+clear

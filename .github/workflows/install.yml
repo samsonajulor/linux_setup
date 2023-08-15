@@ -57,7 +57,6 @@ jobs:
     - name: Install VS Code
       run: sh vscode.sh
 
-
     - name: Install Discord
       run: sh discord.sh
 
