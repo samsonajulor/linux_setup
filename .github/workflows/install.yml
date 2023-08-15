@@ -9,6 +9,9 @@ jobs:
     steps:
     - uses: actions/checkout@v2
 
+    - name: Tntry point
+      run: sh start.sh
+
     - name: Install AWS CLI
       run: sh aws.sh
 
