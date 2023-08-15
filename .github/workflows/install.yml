@@ -71,3 +71,9 @@ jobs:
 
     # - name: Install Redis
     #   run: sh programs/ubuntu-20.04/redis.sh
+
+    - name: Install chrome
+      run: sh programs/ubuntu-20.04/chrome.sh
+
+    - name: Install Postman
+      run: sh programs/ubuntu-20.04/postman.sh

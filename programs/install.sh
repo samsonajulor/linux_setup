@@ -11,7 +11,7 @@ install_program() {
 }
 
 # List of tools to install
-tools=("start" "aws" "git" "dbeaver" "postgresql" "zsh" "node_nvm" "terraform" "slack" "yarn" "vscode" "discord")
+tools=("start" "aws" "git" "dbeaver" "postgresql" "zsh" "node_nvm" "terraform" "slack" "yarn" "vscode" "discord" "postman" "chrome")
 
 # Loop through the list and install each tool
 for tool in "${tools[@]}"; do
