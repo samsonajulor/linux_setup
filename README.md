@@ -1,4 +1,4 @@
-# ubuntu_20_installations
+# linux_setup
 Required programs for my ubuntu environment
 
 ## Instructions
