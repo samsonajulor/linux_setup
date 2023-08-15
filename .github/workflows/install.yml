@@ -21,8 +21,8 @@ jobs:
     - name: Install PostgreSQL
       run: sh postgresql.sh
 
-    - name: Install Docker
-      run: sh docker.sh
+    # - name: Install Docker
+    #   run: sh docker.sh
 
     - name: Install Evernote
       run: sh evernote.sh
