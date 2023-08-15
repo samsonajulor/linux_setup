@@ -42,8 +42,8 @@ jobs:
     # - name: Install Python
     #   run: sh python.sh
 
-    # - name: Install Slack
-    #   run: sh slack.sh
+    - name: Install Slack
+      run: sh slack.sh
 
     # - name: Install Yarn
     #   run: sh yarn.sh
