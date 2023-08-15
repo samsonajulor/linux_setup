@@ -15,6 +15,9 @@ jobs:
     - name: Install AWS CLI
       run: sh aws.sh
 
+    - name: Install GIT
+      run: sh git.sh
+
     # - name: Install PHP
     #   run: sh php.sh
 
