@@ -45,14 +45,14 @@ jobs:
     - name: Install Slack
       run: sh slack.sh
 
-    # - name: Install Yarn
-    #   run: sh yarn.sh
+    - name: Install Yarn
+      run: sh yarn.sh
 
     # - name: Install Zoom
     #   run: sh zoom.sh
 
-    # - name: Install VS Code
-    #   run: sh vscode.sh
+    - name: Install VS Code
+      run: sh vscode.sh
 
     # - name: Install Zsh
     #   run: sh zsh.sh
