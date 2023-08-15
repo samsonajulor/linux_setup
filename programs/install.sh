@@ -15,5 +15,5 @@ tools=("start" "aws" "git" "dbeaver" "postgresql" "zsh" "node_nvm" "terraform" "
 
 # Loop through the list and install each tool
 for tool in "${tools[@]}"; do
-    install_program "$tool"
+    install_program "programs/ubuntu-20.04/$tool"
 done
