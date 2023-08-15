@@ -24,8 +24,8 @@ jobs:
     # - name: Install Docker
     #   run: sh docker.sh
 
-    - name: Install Evernote
-      run: sh evernote.sh
+    # - name: Install Evernote
+    #   run: sh evernote.sh
 
     # - name: Install Java
     #   run: sh java.sh
