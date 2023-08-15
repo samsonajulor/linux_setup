@@ -10,64 +10,64 @@ jobs:
     - uses: actions/checkout@v2
 
     - name: Tntry point
-      run: sh programs/start.sh
+      run: sh programs/ubuntu-20.04/start.sh
 
     - name: Install AWS CLI
-      run: sh programs/aws.sh
+      run: sh programs/ubuntu-20.04/aws.sh
 
     - name: Install GIT
-      run: sh programs/git.sh
+      run: sh programs/ubuntu-20.04/git.sh
 
     # - name: Install PHP
-    #   run: sh programs/php.sh
+    #   run: sh programs/ubuntu-20.04/php.sh
 
     - name: Install DBeaver
-      run: sh programs/dbeaver.sh
+      run: sh programs/ubuntu-20.04/dbeaver.sh
 
     - name: Install PostgreSQL
-      run: sh programs/postgresql.sh
+      run: sh programs/ubuntu-20.04/postgresql.sh
 
     # - name: Install Docker
-    #   run: sh programs/docker.sh
+    #   run: sh programs/ubuntu-20.04/docker.sh
 
     # - name: Install Evernote
-    #   run: sh programs/evernote.sh
+    #   run: sh programs/ubuntu-20.04/evernote.sh
 
     # - name: Install Java
-    #   run: sh programs/java.sh
+    #   run: sh programs/ubuntu-20.04/java.sh
 
     # - name: Install Microsoft Teams
-    #   run: sh programs/ms_teams.sh
+    #   run: sh programs/ubuntu-20.04/ms_teams.sh
 
     - name: Install Zsh
-      run: sh programs/zsh.sh
+      run: sh programs/ubuntu-20.04/zsh.sh
 
     - name: Install Node.js and NVM
-      run: sh programs/node_nvm.sh
+      run: sh programs/ubuntu-20.04/node_nvm.sh
 
     - name: Install Terraform
-      run: sh programs/terraform.sh
+      run: sh programs/ubuntu-20.04/terraform.sh
 
     # - name: Install Python
-    #   run: sh programs/python.sh
+    #   run: sh programs/ubuntu-20.04/python.sh
 
     - name: Install Slack
-      run: sh programs/slack.sh
+      run: sh programs/ubuntu-20.04/slack.sh
 
     - name: Install Yarn
-      run: sh programs/yarn.sh
+      run: sh programs/ubuntu-20.04/yarn.sh
 
     # - name: Install Zoom
-    #   run: sh programs/zoom.sh
+    #   run: sh programs/ubuntu-20.04/zoom.sh
 
     - name: Install VS Code
-      run: sh programs/vscode.sh
+      run: sh programs/ubuntu-20.04/vscode.sh
 
     - name: Install Discord
-      run: sh programs/discord.sh
+      run: sh programs/ubuntu-20.04/discord.sh
 
     # - name: Install MongoDB
-    #   run: sh programs/mongodb.sh
+    #   run: sh programs/ubuntu-20.04/mongodb.sh
 
     # - name: Install Redis
-    #   run: sh programs/redis.sh
+    #   run: sh programs/ubuntu-20.04/redis.sh
