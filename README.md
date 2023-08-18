@@ -27,7 +27,7 @@ PS: Use the official program's documentation. It will save you a lot of stress.
 
 # Installation
 
-This script automates the installation of several applications on an linux system. It's designed to make the installation process quick and efficient by running the necessary scripts for each application. Below is a list of the applications that will be installed along with a brief description of each:
+This script automates the installation of several applications on a Linux system. It's designed to make the installation process quick and efficient by running the scripts for each application.
 
 1. **[start](./programs/ubuntu-20.04/start.sh)**: A custom tool to set up and configure the initial environment.
 
